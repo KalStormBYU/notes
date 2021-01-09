@@ -1,0 +1,34 @@
+Types of Passive Recon:
+
+- Physical (Actually going on site) /Social (phishing, social engineering, etc):
+	- Location Info:
+		- Satellite Images
+		- Drone Recon/flyovers
+		- Building Layout (Badge readers, break areas, security, fencing)
+		- Where do people smoke? Do people leave doors propped open?
+	- Job Information:
+		- Employees (name, job title, phone number, manager, etc)
+		- Pictures (Badge photos, desk photos, computer photos, etc)
+- Web/Host:
+	- Target Validation: - Make sure you're attacking the right target
+		- WHOIS
+		- nslookup
+		- dnsrecon
+	- Finding Subdomains: - Find what subdomains are in that website
+		- Google Fu
+		- dig
+		- Nmap
+		- Sublist3r
+		- Bluto
+		- crt.sh
+		- etc
+	- Fingerprinting: - What's running on the website/host (webserver/version/ports open/etc) Passive = not scanning a website
+		- Nmap
+		- Wappalyzer
+		- WhatWeb
+		- BuiltWith
+		- Netcat
+	- Data Breaches: - Breached incidents of the past (dumped credentials)
+		- HaveIBeenPwned
+		- Breach-Parse
+		- WeLeakInfo
